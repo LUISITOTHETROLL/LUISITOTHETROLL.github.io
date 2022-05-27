@@ -1,11 +1,105 @@
-<!-- Image and text -->
-<nav class="navbar navbar-light bg-light">
-  <a class="navbar-brand" href="#">
-    <img src="./assets/images/TormentedWojack.png" style="width:50px" class="d-inline-block align-top" alt="">
-    Bootstrap
-  </a>
-</nav>
 
-<img src="./assets/images/TormentedWojack.png"  class="d-inline-block align-top" alt="">
 
-<img src="./assets/images/TormentedWojack.png" alt="Italian Trullti" style="width:500px">
+<!-- Toolbar -->
+<div class="toolbar" role="banner">
+ <img class="bannerToGuapo" [src]="srcDeBanner"/>
+</div>
+
+<div class="linea"><br></div>
+
+<div class="content" role="main">
+
+  <!-- Highlight Card -->
+  
+  <div class="card highlight-card card-small">
+
+  
+  </div>
+  <div class="papi">
+ <!--
+  <div class="body">
+    <div style="width: 100%; height: 100%; position: relative">
+      <div id="map">
+        <img [src]="cadenaDeSrc2"  />
+        <img [src]="cadenaDeSrc" />
+      </div>
+    </div>
+  -->
+  <p>nft works!</p>
+  
+   
+  <button class="sida3" (click)="nextImage()" >
+
+    <img class="flechipolla" [src]="srcDeFlecha" height="100">
+    </button>
+
+    <button class="sida4" (click)="nextImage2()" >
+      <img class="flechipolla"  [src]="srcDeFlecha" height="100">
+    </button>
+
+    <img class="imagenFondo" [src]="cadenaDeSrc" height="500"/>
+
+
+    <img class="imagenDelante" [src]="cadenaDeSrc2" height="200"/>
+
+
+    <div class=flechas2>
+      <button class="sida5" (click)="nextImage()" style="bottom:350px">
+    
+        <img class="flechipolla" [src]="srcDeFlecha" height="100" >
+        </button>
+    
+        <button class="sida6" (click)="nextImage2()" style="bottom:350px">
+          <img class="flechipolla"  [src]="srcDeFlecha" height="100">
+        </button>
+      </div>
+
+      <div class=flechas3>
+        <button class="sida7" (click)="nextImage()" style="bottom:190px;right:5.7%">
+      
+          <img class="flechipolla" [src]="srcDeFlecha" height="100" >
+          </button>
+      
+          <button class="sida8" (click)="nextImage2()" style="bottom:190px;left:5.7%">
+            <img class="flechipolla"  [src]="srcDeFlecha" height="100">
+          </button>
+        </div>
+
+       
+    </div>
+
+
+
+
+
+  
+
+
+
+
+</div>
+
+
+
+<button onclick="location.href='https://www.facebook.com'">Llévame a otro lado</button>
+<!--
+<div class="body">
+  <div style="width: 100%; height: 100%; position: relative">
+    <div id="map">
+      <img [src]="cadenaDeSrc2" />
+      <img [src]="cadenaDeSrc" />
+    </div>
+  </div>
+
+</div>
+-->
+
+<!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * -->
+<!-- * * * * * * * * * * * The content above * * * * * * * * * * * -->
+<!-- * * * * * * * * * * is only a placeholder * * * * * * * * * * -->
+<!-- * * * * * * * * * * and can be replaced. * * * * * * * * * * * -->
+<!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * -->
+<!-- * * * * * * * * * * End of Placeholder * * * * * * * * * * * -->
+<!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * -->
+
+<router-outlet></router-outlet>
